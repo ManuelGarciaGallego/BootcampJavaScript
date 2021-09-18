@@ -1,1 +1,1 @@
-# Prácicas BootcampJavaScript
+ Prácticas BootcampJavaScript
