@@ -10,10 +10,8 @@ var hotel = {
   document.getElementById("img-hotel").src = hotel.img;
 
 
-  
 var rating = prompt("Puntuación: del 1 al 5");
 document.getElementById("rating").innerHTML = rating + " estrellas";
-
 
 
 var anonymous = confirm("¿Quiere que la reseña sea anónima?");
