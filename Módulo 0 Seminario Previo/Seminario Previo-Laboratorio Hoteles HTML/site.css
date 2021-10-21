@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hotel-header >h2 {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.hotel-item {
+    padding: 32px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.name { 
+    text-transform: uppercase;
+    color: #666666;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.description {
+    text-transform: lowercase;
+    font-size: 16px;
+    display: block;
+    width: 300px;
+}
+
+.telephone-number {
+    text-transform: uppercase;
+    color: #666666;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.clasification {
+    text-transform: lowercase;
+    font-size: 16px;
+    display: block;
+}
+
+
+
+
+  
