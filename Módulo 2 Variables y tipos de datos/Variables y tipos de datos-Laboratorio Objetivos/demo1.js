@@ -5,6 +5,7 @@ var hotel = {
   
   };
   
+  
   document.getElementById("name-hotel").innerHTML = "Hotel " + hotel.name;
   document.getElementById("location-hotel").innerHTML = "Ubicado en " + hotel.location;
   document.getElementById("img-hotel").src = hotel.img;
