@@ -27,15 +27,15 @@ console.log("Total de la reserva sin descuento:", total + "€")
 //     console.log("Total con descuento:", total - discount + "€")
 // }
 
+
 //   ternario de discount
 discount = total > 500 ? total * 0.20 : 0;
 console.log("Descuento:", discount + "€");
 
 
 if (total > 500 && discount > 0) {
-    const disconted = total - discount;
-    console.log("Total con descuento:", disconted + "€");
-
+    const discounted = total - discount;
+    console.log("Total con descuento:", discounted + "€");
 }
 
 
