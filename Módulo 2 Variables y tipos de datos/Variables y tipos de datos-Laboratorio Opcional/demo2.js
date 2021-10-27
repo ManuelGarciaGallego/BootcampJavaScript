@@ -39,6 +39,8 @@ var stars = {
 var rating = prompt("Puntuación: una, dos, tres, cuatro o cinco estrellas");
 document.getElementById("rating").innerHTML = stars[rating];
 
+var anonymous = confirm("¿Quiere que la reseña sea anónima?");
+document.getElementById("anonymous").checked = anonymous;
 
 
 
