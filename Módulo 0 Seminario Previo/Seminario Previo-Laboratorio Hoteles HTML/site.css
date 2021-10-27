@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hotel-header >h2 {
+.hotel-header h2 {
     margin: auto;
     padding: 20px;
     text-align: center;
@@ -26,7 +26,7 @@ body {
 }
 
 .description {
-    text-transform: lowercase;
+    text-transform:initial;
     font-size: 16px;
     display: block;
     width: 300px;
