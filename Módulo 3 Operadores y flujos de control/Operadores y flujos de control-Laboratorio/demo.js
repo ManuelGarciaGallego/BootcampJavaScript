@@ -1,4 +1,5 @@
-const product = { count: 3, price: 12.55, type: "libro" };
+const product = { count: 3, price: 12.55, type: "ropa" };
+console.log("Datos de producto introducido:", product);
 
 let precioTotal;
 if (product.count > 0) {
