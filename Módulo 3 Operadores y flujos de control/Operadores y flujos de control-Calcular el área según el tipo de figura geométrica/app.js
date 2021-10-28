@@ -1,32 +1,28 @@
 var square = {
     sideOne: 1,
-    sidetwo: 3,
+    sideTwo: 3,
     typeOfGeometricFigure: "Cuadrado",
 
 }
 
 var circle = {
     radius: 5,
-    typeOfGeometricFigure: "Circulo",
+    typeOfGeometricFigure: "Círculo",
 
 }
 
 
-squareArea = square.sideOne * square.sidetwo;
+squareArea = square.sideOne * square.sideTwo;
 
 const Pi = 3.14;
-circleArea = Pi * circle.radius;
+circleArea = Pi * circle.radius * 5;
 
+let typeOfGeometricFigure = "Cuadrado";
 
-let typeOfGeometricFigure;
-
-if (typeOfGeometricFigure = "Cuadrado") {
-    console.log("Área del cuadrado:", typeOfGeometricFigure = squareArea);
+switch (typeOfGeometricFigure) {
+    case "Cuadrado":
+    console.log("Área del cuadrado:", typeOfGeometricFigure = squareArea); break;
+    case "Círculo":
+    console.log("Área del círculo:", typeOfGeometricFigure = circleArea); break;
 
 }
-
-if (typeOfGeometricFigure = "Circulo") {
-    console.log("Área del circulo:", typeOfGeometricFigure = circleArea);
-    
-}
-
