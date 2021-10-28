@@ -35,7 +35,7 @@ console.log("Descuento:", discount + "€");
 
 if (total > 500 && discount > 0) {
     const discounted = total - discount;
-    console.log("Total con descuento:", discounted + "€");
+    console.log("Total con descuento del 20%:", discounted + "€");
 }
 
 
