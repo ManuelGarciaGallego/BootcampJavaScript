@@ -20,7 +20,7 @@
 
 
 
-// Alternativa:
+// Alternativa.
 
 // function submitName () {
    
@@ -34,7 +34,7 @@
 
 
 
-// Arrow function:
+// Arrow function.
 
 // var getName = () => document.getElementById("input-name").value;
 // var getSurname = () => document.getElementById("input-surname").value;
@@ -46,7 +46,7 @@
 
 
 
-//  Con evento "keyup"   
+//  Con evento "keyup".  
 
 var getName = () => document.getElementById("input-name").value;
 var getSurname = () => document.getElementById("input-surname").value;
