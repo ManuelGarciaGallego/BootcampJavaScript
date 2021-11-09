@@ -86,7 +86,7 @@
 
 
 
-// con fuction arrow
+// con arrow fuction.
 
 
 var informePesoIdeal = (altura, peso, sexo) => {
