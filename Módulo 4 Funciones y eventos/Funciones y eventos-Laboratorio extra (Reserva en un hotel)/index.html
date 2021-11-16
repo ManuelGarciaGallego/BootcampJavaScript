@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <header id="title">
+        <h1>Funciones y eventos-Laboratorio extra</h1>
+        <h2>Reservas en hotel</h2>
+    </header>
+    <br>
+    <br>
+
+    <main>
+        <label for="input-nights">Número de noches</label>
+        <input type="number" id="input-nights">
+        
+        <label for="select-typeRoom">Categoria habitación:</label>
+        <select name="select-typeRoom" id="select-typeRoom">
+            <option value="100">Standard</option>
+            <option value="120">Junior Suite</option>
+            <option value="150">Suite</option>
+        </select>
+
+        <label for="input-Spa">SPA:</label>
+        <input type="checkbox" id="input-Spa">
+
+        <label for="select-occupation">Tipo habitación:</label>
+        <select name="select-occupation" id="select-occupation">
+            <option value="0.75">Individual</option>
+            <option value="1">Doble</option>
+            <option value="1.25">Triple</option>
+        </select>
+        
+        <label for="input-parking">Noches con parking:</label>
+        <input type="number" id="input-parking">
+
+        <button id="button-calculate" >Calcular reserva</button>
+        <h1 id="result"></h1>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
