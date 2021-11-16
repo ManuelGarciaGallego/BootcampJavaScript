@@ -110,7 +110,7 @@ var notificaEstadoDeSobrepeso = (excesoPeso) => {
     
 }
 
-informePesoIdeal (1.93, 90, "hombre");
+informePesoIdeal (1.80, 73, "hombre");
 
 
 
