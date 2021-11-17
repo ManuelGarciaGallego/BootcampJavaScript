@@ -8,10 +8,10 @@ var multiplication = () => operandA() * operandB();
 var division = () => operandA() / operandB();
 
 
-var resultSum = () => document.getElementById("result").innerText = sum();
-var resultSubtraction = () => document.getElementById("result").innerText = subtraction();
-var resultMultiplication = () => document.getElementById("result").innerText = multiplication();
-var resultDivision = () => document.getElementById("result").innerText = division();
+var resultSum = () => document.getElementById("result").innerText = "El resultado es: " + sum();
+var resultSubtraction = () => document.getElementById("result").innerText = "El resultado es: " + subtraction();
+var resultMultiplication = () => document.getElementById("result").innerText = "El resultado es: " + multiplication();
+var resultDivision = () => document.getElementById("result").innerText = "El resultado es: " + division();
 
 
 document.getElementById("button-sum").addEventListener("click", condResultSum);
